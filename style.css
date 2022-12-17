@@ -1,0 +1,19 @@
+table{
+    font-family: sans-serif;
+    text-align: center;
+    border-collapse: separate;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    border: 3px solid black;
+}
+td{border-radius: 5px;
+background-color: rgb(185, 100, 100);
+padding: 10px;
+margin: 10px;
+}
+th{
+   background-color: rgb(128, 94, 94);
+   border-radius: 5px;
+   padding: 10px;
+}

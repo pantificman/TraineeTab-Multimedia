@@ -22,59 +22,83 @@
     </header>  
     <main>
         <hr>
-        <table>
-                <tr>
-                    <th>Company</th>
-                    <th>Smartphone</th>
-                    <th>Computer</th>
-                    <th>Tablet</th>
-                    <th>LapTop</th>
-                </tr>
-                <tr>
-                    <td>Apple</td>
-                    <td>yes</td>
-                    <td>yes</td>
-                    <td>yes</td>
-                    <td>yes</td>
-                </tr>
-                <tr>
-                    <td>HP</td>
-                    <td>no</td>
-                    <td>yes</td>
-                    <td>no</td>
-                    <td>yes</td>
-                </tr>
-                <tr>
-                    <td>Dell</td>
-                    <td>no</td>
-                    <td>yes</td>
-                    <td>no</td>
-                    <td>yes</td>
-                </tr>
-                <tr>
-                    <td>Microsoft</td>
-                    <td>no</td>
-                    <td>yes</td>
-                    <td>no</td>
-                    <td>no</td>
-                </tr>
-        </table>
+        
         <form>
             <h2>Contact us</h2>
             <label for="name">Name</label>
             <input type="text" id="name"><br>
 
-            <label for="email">Email</label><br>
-            <input type="text" id="email">
+            <label for="email">Email</label>
+            <input type="text" id="email"><br>
 
-            <label for="course"Course></label>
+            <label for="course">Course</label>
             <select name="course">
                 <option>Adult</option>
                 <option>Teen</option>
                 <option>Child</option>
             </select><br>
+
+            <textarea id="textarea" rows="10" cols="50"></textarea><br>
+            <input type="submit" id="submit" value="submit">
         </form>
-    </main>  
+        <br>
+        <hr>
+        <br>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname"><br>
+
+        <label for="lasttname">Last Name</label>
+        <input type="text" id="lastname" name="lastname"><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone"><br>
+
+        <table>
+            <caption>Enroll</caption>
+            <tr>
+                <th>Company</th>
+                <th>Smartphone</th>
+                <th>Computer</th>
+                <th>Tablet</th>
+                <th>LapTop</th>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>HP</td>
+                <td>no</td>
+                <td>yes</td>
+                <td>no</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>Dell</td>
+                <td>no</td>
+                <td>yes</td>
+                <td>no</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>Microsoft</td>
+                <td>no</td>
+                <td>yes</td>
+                <td>no</td>
+                <td>no</td>
+            </tr>
+    </table>
+            <h2>Title2</h2>
+            <h3>Title3</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, sit eligendi. Alias nemo, sed excepturi debitis optio aut deleniti doloribus aliquid omnis aperiam doloremque modi consectetur illum eaque adipisci mollitia!</p>
+    </main> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
